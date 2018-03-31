@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.Comparator;
 
 /**
- * Created by pactera on 2018/3/31.
+ * Created by gaogf on 2018/3/31.
  */
 public class SparkTupleComparator implements Comparator<Tuple2<Integer,Integer>> , Serializable {
     public SparkTupleComparator() {
